@@ -1,0 +1,14 @@
+[package]
+
+name = "webapp-demo"
+version = "0.1.0"
+authors = [ "your-name@gmail.com" ]
+
+[[bin]]
+
+name = "webapp-demo"
+path = "src/main.rs"
+
+[dependencies.nickel]
+
+git = "https://github.com/nickel-org/nickel.rs.git"
