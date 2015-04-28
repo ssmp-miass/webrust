@@ -1,6 +1,6 @@
 extern crate nickel;
 
-use std::io::net::ip::Ipv4Addr;
+use std::net::ip::Ipv4Addr;
 use nickel::{ Nickel, Request, Response };
 
 fn main() {
