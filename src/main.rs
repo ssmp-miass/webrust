@@ -11,5 +11,5 @@ fn main() {
         }
 
     server.get("/", a_handler);
-    server.listen(Ipv4Addr(0, 0, 0, 0), 8080);
+    server.listen(localhost, 8080);
 }
